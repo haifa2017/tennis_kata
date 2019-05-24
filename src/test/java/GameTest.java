@@ -19,4 +19,12 @@ public class GameTest {
         Assertions.assertThat(game.getPlayerOneCurrentScore()).isEqualTo(0);
         Assertions.assertThat(game.getPlayerTwoCurrentScore()).isEqualTo(0);
     }
+
+    @Test
+    public void game_should_have_tennis_score_15_15(){
+        game.playerOneScore();
+        game.playerTwoScore();
+        Assertions.assertThat(game.getTennisScore()).isEqualTo("15-15");
+    }
+
 }

@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.List;
 
-public class Player {
+class Player {
     private static final List<Integer> scores = Arrays.asList(0, 15, 30, 40);
 
     private String name;
@@ -17,11 +17,15 @@ public class Player {
         return currentScore;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    void score(){
+        this.currentScore++;
     }
 
-    public void setCurrentScore(int currentScore) {
-        this.currentScore = currentScore;
+    int tennisScore(){
+        return scores.get(currentScore);
+    }
+
+    String getName() {
+        return name;
     }
 }

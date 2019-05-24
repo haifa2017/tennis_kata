@@ -14,4 +14,21 @@ class Game {
     int getPlayerTwoCurrentScore(){
         return playerTwo.getCurrentScore();
     }
+
+    void playerOneScore() {
+        this.playerOne.score();
+    }
+
+    void playerTwoScore() {
+        this.playerTwo.score();
+    }
+
+    String getTennisScore(){
+        if(playerOne.getCurrentScore()>3 && playerTwo.getCurrentScore()>3){
+            if(playerOne.getCurrentScore() == playerTwo.getCurrentScore()){
+                return "Deuce";
+            }
+        }
+        return playerOne.tennisScore()+"-"+playerTwo.tennisScore();
+    }
 }
