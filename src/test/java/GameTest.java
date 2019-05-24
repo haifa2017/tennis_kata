@@ -34,4 +34,13 @@ public class GameTest {
         game.playerTwoScore();
         Assertions.assertThat(game.getTennisScore()).isEqualTo("15-30");
     }
+    @Test
+    public void game_should_have_tennis_score_30_40(){
+        game.playerOneScore();
+        game.playerOneScore();
+        game.playerTwoScore();
+        game.playerTwoScore();
+        game.playerTwoScore();
+        Assertions.assertThat(game.getTennisScore()).isEqualTo("30-40");
+    }
 }
