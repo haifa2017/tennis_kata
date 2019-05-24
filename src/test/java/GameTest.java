@@ -5,15 +5,13 @@ import org.junit.Test;
 public class GameTest {
 
 
-    private Player playerOne;
-    private Player playerTwo;
     private Game game;
 
     @Before
     public void setup() {
-        playerOne = new Player("PlayerOne");
-        playerTwo = new Player("PlayerTwo");
-        game = new Game(playerOne,playerTwo);
+        Player playerOne = new Player("PlayerOne");
+        Player playerTwo = new Player("PlayerTwo");
+        game = new Game(playerOne, playerTwo);
     }
 
     @Test
