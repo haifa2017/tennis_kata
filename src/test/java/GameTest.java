@@ -27,4 +27,11 @@ public class GameTest {
         Assertions.assertThat(game.getTennisScore()).isEqualTo("15-15");
     }
 
+    @Test
+    public void game_should_have_tennis_score_15_30(){
+        game.playerOneScore();
+        game.playerTwoScore();
+        game.playerTwoScore();
+        Assertions.assertThat(game.getTennisScore()).isEqualTo("15-30");
+    }
 }
