@@ -43,4 +43,27 @@ public class GameTest {
         game.playerTwoScore();
         Assertions.assertThat(game.getTennisScore()).isEqualTo("30-40");
     }
+
+    @Test
+    public void game_should_have_tennis_score_40_40(){
+        game.playerOneScore();
+        game.playerOneScore();
+        game.playerOneScore();
+        game.playerTwoScore();
+        game.playerTwoScore();
+        game.playerTwoScore();
+        Assertions.assertThat(game.getTennisScore()).isEqualTo("40-40");
+    }
+    @Test
+    public void game_should_have_tennis_score_deuce(){
+        game.playerOneScore();
+        game.playerOneScore();
+        game.playerOneScore();
+        game.playerOneScore();
+        game.playerTwoScore();
+        game.playerTwoScore();
+        game.playerTwoScore();
+        game.playerTwoScore();
+        Assertions.assertThat(game.getTennisScore()).isEqualTo("Deuce");
+    }
 }

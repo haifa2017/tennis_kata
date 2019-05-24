@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="abe4abbf-c43f-4593-aada-5365934d7b77" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tenni_kata.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/GameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GameTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,8 +26,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/PlayerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="69" />
+            <state relative-caret-position="200">
+              <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#92#93#0" expanded="true" />
@@ -43,8 +42,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/GameTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+            <state relative-caret-position="316">
+              <caret line="56" column="4" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -173,7 +172,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558699873679" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558700165722" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
@@ -194,32 +193,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GameTest">
+  <component name="RunManager" selected="JUnit.GameTest.game_should_have_tennis_score_deuce">
     <configuration name="GameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tenni_kata" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="GameTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GameTest.game_should_have_score_of_1_1_when_playerOne_scores_and_playerTwo_scores" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tenni_kata" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GameTest" />
-      <option name="METHOD_NAME" value="game_should_have_score_of_1_1_when_playerOne_scores_and_playerTwo_scores" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GameTest.game_should_have_tennis_score_15_15" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tenni_kata" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GameTest" />
-      <option name="METHOD_NAME" value="game_should_have_tennis_score_15_15" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -234,11 +213,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GameTest.game_should_start_with_score_of_0_0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GameTest.game_should_have_tennis_score_40_40" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tenni_kata" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="GameTest" />
-      <option name="METHOD_NAME" value="game_should_start_with_score_of_0_0" />
+      <option name="METHOD_NAME" value="game_should_have_tennis_score_40_40" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameTest.game_should_have_tennis_score_deuce" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tenni_kata" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GameTest" />
+      <option name="METHOD_NAME" value="game_should_have_tennis_score_deuce" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlayerTest.player_should_start_with_score_of_0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tenni_kata" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PlayerTest" />
+      <option name="METHOD_NAME" value="player_should_start_with_score_of_0" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -246,11 +245,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GameTest.game_should_have_tennis_score_deuce" />
+        <item itemvalue="JUnit.PlayerTest.player_should_start_with_score_of_0" />
+        <item itemvalue="JUnit.GameTest.game_should_have_tennis_score_40_40" />
         <item itemvalue="JUnit.GameTest" />
         <item itemvalue="JUnit.GameTest.game_should_have_tennis_score_15_30" />
-        <item itemvalue="JUnit.GameTest.game_should_have_tennis_score_15_15" />
-        <item itemvalue="JUnit.GameTest.game_should_have_score_of_1_1_when_playerOne_scores_and_playerTwo_scores" />
-        <item itemvalue="JUnit.GameTest.game_should_start_with_score_of_0_0" />
       </list>
     </recent_temporary>
   </component>
@@ -300,7 +299,21 @@
       <option name="project" value="LOCAL" />
       <updated>1558698816775</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add test should have tennis score  30-40">
+      <created>1558699935917</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1558699935917</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add test should have tennis score  40-40 deuce rule">
+      <created>1558700103851</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1558700103851</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -322,6 +335,15 @@
     <history-entry file="GameTest_game_should_have_tennis_score_15_30 - 2019.05.24 at 13h 51m 53s.xml">
       <configuration name="GameTest.game_should_have_tennis_score_15_30" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="GameTest - 2019.05.24 at 14h 10m 55s.xml">
+      <configuration name="GameTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GameTest_game_should_have_tennis_score_40_40 - 2019.05.24 at 14h 14m 27s.xml">
+      <configuration name="GameTest.game_should_have_tennis_score_40_40" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlayerTest_player_should_start_with_score_of_0 - 2019.05.24 at 14h 14m 33s.xml">
+      <configuration name="PlayerTest.player_should_start_with_score_of_0" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
@@ -337,7 +359,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.32885906" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32171583" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32037532" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -361,27 +383,15 @@
     <MESSAGE value="refactoring game class" />
     <MESSAGE value="add test to test the game if the score is equal to 15-15" />
     <MESSAGE value="add test should have tennis score  15-30" />
-    <option name="LAST_COMMIT_MESSAGE" value="add test should have tennis score  15-30" />
+    <MESSAGE value="add test should have tennis score  30-40" />
+    <MESSAGE value="add test should have tennis score  40-40 deuce rule" />
+    <option name="LAST_COMMIT_MESSAGE" value="add test should have tennis score  40-40 deuce rule" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PlayerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#92#93#0" expanded="true" />
-            <element signature="e#141#142#0" expanded="true" />
-            <element signature="e#447#448#0" expanded="true" />
-            <element signature="e#523#524#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -420,10 +430,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PlayerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#92#93#0" expanded="true" />
+            <element signature="e#141#142#0" expanded="true" />
+            <element signature="e#447#448#0" expanded="true" />
+            <element signature="e#523#524#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/GameTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        <state relative-caret-position="316">
+          <caret line="56" column="4" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
