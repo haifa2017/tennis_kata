@@ -7,6 +7,7 @@ class Game {
         this.playerTwo = player2;
     }
 
+
     int getPlayerOneCurrentScore(){
         return playerOne.getCurrentScore();
     }

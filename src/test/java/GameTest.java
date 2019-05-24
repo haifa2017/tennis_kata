@@ -21,6 +21,19 @@ public class GameTest {
     }
 
     @Test
+    public void game_should_start_with_score_of_0_15(){
+        game.playerTwoScore();
+        Assertions.assertThat(game.getTennisScore()).isEqualTo("0-15");
+    }
+
+    @Test
+    public void game_should_start_with_score_of_15_0(){
+        game.playerOneScore();
+        game.playerTwoScore();
+        Assertions.assertThat(game.getTennisScore()).isEqualTo("15-0");
+    }
+
+    @Test
     public void game_should_have_tennis_score_15_15(){
         game.playerOneScore();
         game.playerTwoScore();
@@ -66,4 +79,5 @@ public class GameTest {
         game.playerTwoScore();
         Assertions.assertThat(game.getTennisScore()).isEqualTo("Deuce");
     }
+
 }
