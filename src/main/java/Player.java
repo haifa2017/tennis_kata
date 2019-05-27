@@ -24,7 +24,6 @@ class Player {
     int tennisScore(){
         return scores.get(currentScore);
     }
-
     String getName() {
         return name;
     }

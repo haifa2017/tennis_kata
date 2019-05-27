@@ -29,6 +29,10 @@ class Game {
             if(playerOne.getCurrentScore() == playerTwo.getCurrentScore()){
                 return "Deuce";
             }
+
+        }
+        if(playerOne.getCurrentScore()>3){
+            return playerOne.getName()+" Win";
         }
         return playerOne.tennisScore()+"-"+playerTwo.tennisScore();
     }

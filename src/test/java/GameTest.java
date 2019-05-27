@@ -29,7 +29,6 @@ public class GameTest {
     @Test
     public void game_should_start_with_score_of_15_0(){
         game.playerOneScore();
-        game.playerTwoScore();
         Assertions.assertThat(game.getTennisScore()).isEqualTo("15-0");
     }
 
@@ -80,4 +79,12 @@ public class GameTest {
         Assertions.assertThat(game.getTennisScore()).isEqualTo("Deuce");
     }
 
+    @Test
+    public void game_should_have_tennis_score_playerOne_Win(){
+        game.playerOneScore();
+        game.playerOneScore();
+        game.playerOneScore();
+        game.playerOneScore();
+        Assertions.assertThat(game.getTennisScore()).isEqualTo("PlayerOne Win");
+    }
 }
